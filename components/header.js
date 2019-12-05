@@ -23,7 +23,7 @@ function Header() {
     <div className={classes.root}>
       <Grid container spacing={4}>
         <Grid item xs={12} className={classes.spacing}>
-         <img src="https://landen.imgix.net/he6fpnd9wnni/assets/f1872tp5.png?w=354" width="177"/>
+         <img src="/static/aznbuzz.png" width="177"/>
         </Grid>
       </Grid>
     </div>
