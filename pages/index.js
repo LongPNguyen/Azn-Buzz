@@ -29,7 +29,7 @@ export default class Home extends React.Component {
         this.setState({width:'100%'})
       }
       else {
-        this.setState({width:'200%'})
+        this.setState({width:'150%'})
       };
   }
 
