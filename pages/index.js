@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
+import { PageHeader } from 'antd'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Grid from '@material-ui/core/Grid'
+import  CardCarousel  from '../components/carousel'
 import AppStore from '../components/download'
 
 const hStyles = {
@@ -51,6 +53,9 @@ export default class Home extends React.Component {
           </div>
         </Grid>
         <Grid item xs={12}><AppStore/></Grid>
+        <Grid item xs={12}>
+          <CardCarousel/>
+        </Grid>
         <Grid item xs={12} >
             <div align='center' style={{
               display: 'flex',
